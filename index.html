@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>表单</title>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<style type="text/css">
+		
+		sup{color: red;}
+			form{border: 2px dashed red;width: 400px;}
+			span{display:inline-block;width: 100px;height: 100px;background: red;}
+		</style>
+		
+	</head>
+	<body>
+		<span id="aa">科技和空间</span>
+		<span>科技和空间</span>
+		<span>科技和空间</span>
+		<form method="post">
+			<h1>表单</h1>
+			用户名<sup>*</sup><br />
+			<input type="text" width: 400px /><br />
+			密码<sup>*</sup><br />
+			<input type="password" name="密码" style="width: 300px;" readonly="readonly" /><br />
+			邮箱<sup>*</sup><br />
+			<input type="text" width: 300px disabled="disabled"/><br />
+			性别<sup>*</sup><br />
+			<input type="radio" name="sex" />男
+			<input type="radio" name="sex" />女<br />
+			爱好:<br />
+			<input type="checkbox" checked="checked"/>打篮球
+			<input type="checkbox" />玩游戏
+			<input type="checkbox" />唱歌
+			<input type="checkbox" />编程序
+			<input type="checkbox" />跳舞<br />
+			城市<sup>*</sup><br />
+			<select name="city">
+				<option>北京市</option>
+				<option selected="selected">广州市</option>
+				<option>天津市</option>
+				<option>深圳市</option>
+			</select><br />
+			城镇<sup>*</sup><br />
+			<select name="town">
+				<option>白云区</option>
+			</select><br />
+			文本<sup>*</sup><br />
+			<textarea name="" placeholder="请输入消息" ></textarea>
+			<p><input type="checkbox" name=""  value="" />记住用户名</p>
+			<input type="submit" value="提交" />
+			<input type="reset" value="重置" />
+			<input type="file" name="" id="" value="" multiple="multiple"/>
+			<fieldset></fieldset>
+			<input  type=”tel” name=”police”  value=”110” /><br />
+			<input  type=”url”  name=”s” />
+			<input type="radio" name="sex" value="boy" id="in" />
+	<label for="in">男</label>
+	<input type="radio" name="sex" value="girl" id="in2" />
+	<label for="in2">女</label><br />
+	<p style="display: inline;"><p>ss</p>as</p>
+
+		</form>
+	</body>
+</html>
